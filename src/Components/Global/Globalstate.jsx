@@ -52,31 +52,31 @@ export const shoes = {
             price:300
 
 
-        },'car':{
+        },'a':{
             name:'faizan',
             img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
             price:300
 
 
-        },'car':{
+        },'b':{
             name:'faizan',
             img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
             price:300
 
 
-        },'car':{
+        },'c':{
             name:'faizan',
             img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
             price:300
 
 
-        },'car':{
+        },'d':{
             name:'faizan',
             img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
             price:300
 
 
-        },'car':{
+        },'e':{
             name:'faizan',
             img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
             price:300
