@@ -4,9 +4,7 @@ import './Home.css'
 function Home() {
     return (
         <div>
-            <div>
-                Home
-            </div>
+           Home page
         </div>
     )
 }

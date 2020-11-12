@@ -6,8 +6,8 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <Link to='/'>               
-                 <img className='header__logo' src={'http://pngimg.com/uploads/adidas/adidas_PNG21.png'} alt='' />
+                <Link to='/'>
+                    <img className='header__logo' src={'http://pngimg.com/uploads/adidas/adidas_PNG21.png'} alt='' />
                 </Link>
             </div>
             <div className="header__right">
@@ -17,7 +17,9 @@ function Header() {
                 <Link to='products'>
                     <nav>Products</nav>
                 </Link>
-                <ShoppingCartIcon className='icon' />
+                <Link to="checkout">
+                    <ShoppingCartIcon className='icon' />
+                </Link>
             </div>
 
 

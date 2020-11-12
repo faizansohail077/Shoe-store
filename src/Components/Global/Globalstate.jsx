@@ -16,6 +16,74 @@ export const shoes = {
             img:
             "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
             price: 300
-        },
+        },'car':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'bike':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'plane':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'ride':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'ca':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'acc':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'car':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'car':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'car':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'car':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        },'car':{
+            name:'faizan',
+            img:"https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+            price:300
+
+
+        }
+            
+        
         
     };

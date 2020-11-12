@@ -1,23 +1,30 @@
 import React, { useContext } from 'react'
+import './Productindex.css'
 import { Link } from 'react-router-dom';
 import { shoes } from './Global/Globalstate'
+import { Button } from '@material-ui/core';
 
 function ProductIndex() {
     return (
-        <div>
-            <ul>
+        <div className="cards-container">
+            <>
                 {Object.entries(shoes).map(([productID, { name, img, price }]) => (
-                    <li key={productID}>
-                        <Link to={productID}>
-                            <div>
-                                <h2>{name}</h2>
-                                <img src={img} alt={name} />
-                                <h1>{price}</h1>
+                    <div key={productID}>
+                        <div className="img1">
+                            <div className='image'>
+                                <Link to={productID} style={{ textDecoration: 'none', color: 'black' }}>
+                                    <h2 className='title'>{name}</h2>
+                                    <img className='img' src={img} alt={name} />
+                                    <div className='head'>
+                                        <h1 className='price'>{price}</h1>
+                                        <Button>add</Button>
+                                    </div>
+                                </Link>
                             </div>
-                        </Link>
-                    </li>
+                        </div>
+                    </div>
                 ))}
-            </ul>
+            </>
         </div>
     )
 }
