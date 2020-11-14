@@ -1,8 +1,7 @@
 import React from 'react'
 import './Productindex.css'
 import { Link } from 'react-router-dom';
-import { shoes } from './Global/Globalstate'
-import { Button } from '@material-ui/core';
+import {  shoes } from './Global/Globalstate'
 
 function ProductIndex() {
     return (
@@ -17,7 +16,6 @@ function ProductIndex() {
                                     <img className='img' src={img} alt={name} />
                                     <div className='head'>
                                         <h1 className='price'>{price}</h1>
-                                        <Button>add</Button>
                                     </div>
                                 </Link>
                             </div>

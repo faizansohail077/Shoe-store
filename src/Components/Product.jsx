@@ -7,10 +7,10 @@ import './Product.css'
 function Product() {
     return (
         <div>
-                    <h3>Product</h3>
+            <h3>Product</h3>
             <hr />
-            <Outlet/>
-          
+            <Outlet />
+
         </div>
     )
 }

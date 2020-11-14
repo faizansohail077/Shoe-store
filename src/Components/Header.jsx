@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Header.css'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Link } from 'react-router-dom';
+import { GlobalContext } from './Global/Globalstate';
 function Header() {
+    const context = useContext(GlobalContext)
+    let cartItems = Object.keys(context.state.cart).length
     return (
         <div className="header">
             <div className="header__left">
@@ -20,6 +23,7 @@ function Header() {
                 <Link to="checkout">
                     <ShoppingCartIcon className='icon' />
                 </Link>
+                {cartItems}
             </div>
 
 
